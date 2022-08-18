@@ -4,4 +4,5 @@ const nextConfig = {
   swcMinify: true,
 }
 
+module.exports = require('next-optimized-classnames')()
 module.exports = nextConfig
