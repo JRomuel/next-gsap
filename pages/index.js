@@ -15,7 +15,7 @@ const homeAnimation = (completeAnimation) => {
     ease: 'power4.out',
     delay: 1,
     skewY: 7,
-    stagger: 0.3
+    stagger: 0.3,
   }).to('.overlay-top', {
     duration:  1.6,
     height: 0,
