@@ -9,9 +9,6 @@ const Main = ({ children }) => {
         <div className="App">
             <Head>
                 <title>Next | GSAP</title>
-                <link rel="preconnect" href="https://fonts.googleapis.com"/>
-                <link rel="preconnect" href="https://fonts.gstatic.com"/>
-                <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700&display=swap" rel="stylesheet"/>
             </Head>
         
             <NavBar />
