@@ -10,11 +10,11 @@ const tl = gsap.timeline();
 const homeAnimation = (completeAnimation) => {
   
   tl.from('.line span', {
-    duration: 1.8,
     y: 100,
+    skewY: 7,
+    duration: 1.8,  
     ease: 'power4.out',
     delay: 1,
-    skewY: 7,
     stagger: 0.3,
   }).to('.overlay-top', {
     duration:  1.6,
@@ -35,8 +35,7 @@ export default function Home() {
 
   useEffect(() => {
     homeAnimation(completeAnimation);
-
-
+    console.log('test');
   }, [])
 
 

@@ -28,7 +28,7 @@
                 margin-bottom: 8px;
                 height: 56px;
                 position: relative;
-                // overflow: hidden;
+                overflow: hidden;
 
                 @include media('<=tablet'){
                     height: 48px;
