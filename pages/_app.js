@@ -1,6 +1,10 @@
-import '../styles/components/app.scss'
+
 import { useEffect } from "react";
+
 import gsap from "gsap";
+
+import Layout from '../components/layouts/main'
+import '../styles/app.scss'
 
 
 function MyApp({ Component, pageProps }) {
@@ -9,7 +13,11 @@ function MyApp({ Component, pageProps }) {
     gsap.to("body", 0, { css: { visibility: 'visible'} });  
   })
   
-  return <Component {...pageProps} />
+  return (
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
+  )
 }
 
 export default MyApp

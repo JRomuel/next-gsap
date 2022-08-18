@@ -1,6 +1,6 @@
 import React from 'react'
 
-import styles from '../styles/components/about.module.scss'
+import styles from '../styles/about.module.scss'
 
 
 const About_us = () => {
